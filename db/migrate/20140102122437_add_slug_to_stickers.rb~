@@ -1,5 +1,0 @@
-class AddSlugToStickers < ActiveRecord::Migration
-  def change
-    add_column :stickers, :slug, :string
-  end
-end
