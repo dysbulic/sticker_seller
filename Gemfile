@@ -27,6 +27,8 @@ gem 'omniauth-google-oauth2'
 # Environment variables in config/application.yml
 gem 'figaro'
 
+gem 'friendly_id', '~> 5.0.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
