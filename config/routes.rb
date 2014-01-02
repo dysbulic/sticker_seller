@@ -1,5 +1,9 @@
 App::Application.routes.draw do
-  resources :stickers
+  resources :stickers do
+    member do
+      get :order
+    end
+  end
 
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

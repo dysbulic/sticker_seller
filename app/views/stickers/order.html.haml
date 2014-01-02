@@ -1,0 +1,17 @@
+%h1 Order
+
+= image_tag @sticker.image
+
+= form_for @order do |f|
+  .field
+    = f.label 'Address Line 1'
+    = f.text_field :address_primary
+
+  .field
+    = f.label 'Address Line 2'
+    = f.text_field :address_secondary
+
+  .field
+    = f.label :city
+    = f.text_field :city
+

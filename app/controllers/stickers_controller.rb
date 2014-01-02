@@ -1,5 +1,5 @@
 class StickersController < ApplicationController
-  before_action :set_sticker, only: [:show, :edit, :update, :destroy]
+  before_action :set_sticker, only: [:show, :edit, :update, :destroy, :order]
 
   # GET /stickers
   # GET /stickers.json
@@ -59,6 +59,9 @@ class StickersController < ApplicationController
       format.html { redirect_to stickers_url }
       format.json { head :no_content }
     end
+  end
+
+  def order
   end
 
   private
