@@ -1,0 +1,23 @@
+%h1 Listing stickers
+
+%table
+  %tr
+    %th Name
+    %th Image
+    %th Quantity
+    %th
+    %th
+    %th
+
+  - @stickers.each do |sticker|
+    %tr
+      %td= sticker.name
+      %td= sticker.image
+      %td= sticker.quantity
+      %td= link_to 'Show', sticker
+      %td= link_to 'Edit', edit_sticker_path(sticker)
+      %td= link_to 'Destroy', sticker, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Sticker', new_sticker_path
