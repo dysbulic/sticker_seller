@@ -1,4 +1,6 @@
 App::Application.routes.draw do
+  resources :addresses
+
   resources :stickers do
     member do
       get :order

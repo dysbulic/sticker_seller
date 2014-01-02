@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  primary: MyString
+  secondary: MyString
+  city: MyString
+  state: MyString
+  post_code: MyString
+  country: MyString
+
+two:
+  primary: MyString
+  secondary: MyString
+  city: MyString
+  state: MyString
+  post_code: MyString
+  country: MyString
