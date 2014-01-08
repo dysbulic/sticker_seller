@@ -1,4 +1,4 @@
-sticker_seller
+Sticker Seller
 ==============
 
-Selling stickers for bitcoins
+Selling stickers for bitcoins and signing metadata about the transaction.
